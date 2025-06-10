@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #1C2838;
+    color: rgba(151, 151, 151, 0.774);
+    font-family: arial;
+}
+
+main{
+    width: 1024px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 250px;
+    padding-left: 20px;
+
+
+    margin-bottom: 10px;
+
+
+    background-color: rgba(152, 149, 149, 0.568);
+    height: 50px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding-left: 20px;
+
+
+    margin-bottom: 10px;
+
+
+    background-color: rgba(152, 149, 149, 0.568);
+    width: auto;
+    height: 50px;
+}
+
+header>nav{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+
+    font-size: 20px;
+}
+
+nav>a{
+    text-decoration: none;
+text-align: center;
+
+    color: rgba(151, 151, 151, 0.774);
+
+    padding-left: 10px;
+    padding-top: 4px;
+
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: black;
+    width: 140px;
+    height: 35px;
+}
+
+nav>a:hover{
+    color: rgb(246, 246, 252);
+}
+
+.jogo{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    margin-left: 10px;
+
+}
+
+h1{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.texto{
+
+    width: 300px;
+    padding: 10px;
+    margin-left: auto;
+
+}
+
+.texto>h2{
+    font-size: 18px;
+}
+
+.texto>a{
+    text-decoration: none;
+    color: green;
+}
+
+.texto>p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.images{
+    width: 248px;
+    height: 150px;
+}
+
+footer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+footer>a{
+    text-decoration: none;
+    color: rgb(25, 65, 243);
+}
+
+footer>a:hover{
+    color: orange;
+}
+
+img:hover{
+transform: scale(1.02);
+
+}
+
+
+@media (max-width: 768px){
+
+    main{
+        width: auto;
+    }
+
+    header>nav{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        font-size: 17px;
+    }
+
+    header{
+        gap: 25px;
+    }
+
+    nav>a{
+        text-decoration: none;
+        color: rgba(151, 151, 151, 0.774);
+
+        padding-left: 10px;
+        padding-top:    6px;
+    
+        border: 1px solid black;
+        border-radius: 30px;
+        width: 110px;
+        height: 35px;
+    
+    }
+
+    .jogo{
+        
+        margin-bottom: 10px;
+    }
+
+    .texto{
+        margin-left: 10px;
+    
+    }
+
+
+}

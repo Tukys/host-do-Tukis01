@@ -1,0 +1,155 @@
+#logosteam{
+    height: 50px;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+  
+
+
+    background-color: #1C2838;
+    color: rgba(151, 151, 151, 0.774);
+    font-family: arial;
+}
+
+
+.cabec{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding-left: 20px;
+width: 100%;
+
+    margin-bottom: 10px;
+
+
+    background-color: rgba(152, 149, 149, 0.568);
+    width: auto;
+    height: 50px;
+}
+
+
+
+.cabec .links{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
+    gap: 150px;
+    font-size: 20px;
+}
+
+
+.cabec a{
+    text-decoration: none;
+    color: rgba(151, 151, 151, 0.774);
+
+    padding-left: 10px;
+    padding-top: 4px;
+
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: black;
+    width: 140px;
+    height: 35px;
+}
+
+.cabec a:hover{
+    
+    color: rgb(255, 255, 255);
+
+}
+.links{    
+    display: flex;
+    justify-content: space-around;
+    
+    width: 100%;
+}
+
+.init{
+margin-top: 25px;
+justify-content: center;
+
+display: flex;
+}
+
+#gta{
+    width: 450px;
+    height: 250px;
+}
+
+
+.text{
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#prec{
+    color: rgb(51, 204, 5);
+}
+
+.maior{
+    width: 450px;
+    height: 250px;
+}
+
+.ofertas{
+   justify-content: center; 
+    gap: 10px;
+  display: flex;
+}
+.h{
+   margin: 10px 50px ;
+}
+
+.menor{
+    width: 213px;
+    height: 125px;
+  
+}
+
+.menor2{
+    width: 226px;
+    height: 125px;
+}
+
+.imagesP{
+    width: 200px;
+    gap: 10px;
+
+    display: flex;
+}
+
+img:hover{
+transform: scale(1.02);
+
+}
+@media (max-width:768px ){
+
+    .cabec{
+        width: 600px;
+    }
+
+    .ofertas{
+        flex-direction: column;
+    }
+    .imagesP{
+        flex-direction: column;
+    }
+
+    .menor{
+        width: 450px;
+        height: 250px;
+    }
+
+    .menor2{
+        width: 450px;
+        height: 250px;
+    }
+}
